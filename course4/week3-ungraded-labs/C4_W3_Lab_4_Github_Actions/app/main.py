@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
 
-
+# add a comment to run github action
 app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
